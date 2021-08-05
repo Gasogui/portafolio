@@ -1,10 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/styles/styles.css" />
+    <script
+      src="https://kit.fontawesome.com/48c8b03139.js"
+      crossorigin="anonymous"
+    ></script>
+
     <title>Currículum Vitaje | GLgarcia</title>
   </head>
-  <body></body>
+
+  <!-- ---- body ---- -->
+  <body>
+    <!-- --- header --- -->
+    <header class="header">
+      <!-- ---- nav ---- -->
+      <nav class="nav">
+        <a href="index.html" class="logo nav-lik">
+          <img src="assets/images/logo_glgarcia.png" alt="Logo GLgarcia" />
+        </a>
+        <a href="index.html">GLgarcia</a>
+
+        <button class="nav-toggle" aria-label="Abrir menú">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul class="nav-menu">
+          <li class="nav-menu-item">
+            <a href="#inicio" class="nav-menu-link nav-link">Inicio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#acerca" class="nav-menu-link nav-link">Acerca</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#servicios" class="nav-menu-link nav-link">Servicios</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#portafolio" class="nav-menu-link nav-link">Portafolio</a>
+          </li>
+          <li class="nav-menu-item">
+            <a href="#contacto" class="nav-menu-link nav-link">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- --- Inicio --- -->
+      <section id="inicio" class="home"></section>
+
+      <!-- --- Acerca --- -->
+      <section id="acerca" class="about"></section>
+
+      <!-- --- Servicios --- -->
+      <section id="servicios" class="services"></section>
+
+      <!-- --- Portafolio --- -->
+      <section id="portafolio" class="portafolio"></section>
+
+      <!-- --- Contacto --- -->
+      <section id="contacto" class="contact"></section>
+    </main>
+
+    <!-- --- footer --- -->
+    <footer></footer>
+    <script src="assets/scripts/scripts.js"></script>
+  </body>
 </html>
